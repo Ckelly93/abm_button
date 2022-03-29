@@ -2,7 +2,7 @@
 <head>
 <title>Button</title>
 </head>
-<link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.x.x/dist/tailwind.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/gh/alpinejs@v1.9.8/dist/alpine.js" defer></script>
 <body class="bg-gray-300 text-gray-800">
 	
@@ -11,6 +11,57 @@
 		<img src="ABM_2.png" class="width="150" height="150" alt>
 		</a>
 </div>
-								    </body>
+<main>
+<div class=" fixed-flex justify-items-center z-10" controls column-1>
+	<div class="transform: translate-x-full flex items-center rounded-full hover:bg-gray-200" controls control 1>
+	<a href="abm_home.html">
+	<img src="ABM_1.png" height="30" width="30" alt>
+	</a>
+</div>
+<div class="transform: translate-x-3/4 flex items-center rounded-full hover:bg-gray-200" controls control 2>
+	<a href="abm_podcast.html">
+	<i class="fas fa-microphone-alt "></i>
+	</a>
+</div>
+<div class="transform: translate-x-3/4 flex items-center rounded-full hover:bg-gray-200 controls control 3">
+	<a href="abm_about.html">
+	<i class="fas fa-user"></i>
+</a>
+</div>
+<div class="transform: translate-x-3/4 items-center rounded-full hover:bg-gray-200 controls control 4">
+	<a href="abm_rs.html">
+	<i class="fas fa-user"></i>
+</a>
+</div>
+<div class="transform: translate-x-3/4 flex items-center rounded-full hover:bg-gray-200 controls control 5">
+	<a href="abm_contact.html">
+	<i class="fas fa-user"></i>
+</a>
+</div>
+</div>
+</main>
+
+<figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+  <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="chris.jpg" alt="" width="384" height="512">
+  <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <blockquote>
+      <p class="text-lg font-medium">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams. It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
+    <figcaption class="font-medium">
+      <div class="text-sky-500 dark:text-sky-400">
+        Chris Kelly
+      </div>
+      <div class="text-slate-700 dark:text-slate-500">
+        Host, ABM Podcast
+      </div>
+    </figcaption>
+  </div>
+</figure>										    
+	
+								 </body>
 								    </html>
 								    
